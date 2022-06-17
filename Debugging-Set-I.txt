@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace examDemoApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Int32[] numbers;
+            numbers = new Int32[3];
+
+            numbers[0] = '5';
+            numbers[1] = '9';
+            numbers[2] = '2';
+
+            Console.WriteLine(numbers[0]);
+            Console.WriteLine(numbers[1]);
+            Console.WriteLine(numbers[2]);
+            Console.ReadLine();
+        }
+    }
+}
